@@ -130,7 +130,7 @@
     <h1>Login to Continue</h1>
 
     <section class="card">
-      <img class="logo" src="https://adxpanel.github.io/adxpanel-logo.png" alt="ADXPanel Logo">
+      <img class="logo" src="https://adxpanel.github.io/login/adxpanel-logo.png" alt="ADXPanel Logo">
 
       <form id="loginForm">
         <div class="field">
@@ -149,7 +149,7 @@
       <a class="forgot" href="#" id="forgot">FORGOT PASSWORD?</a>
     </section>
 
-    <footer>© 2015 - 2023 Pterodactyl Software</footer>
+    <footer>© 2015 - 2023 ADX Software</footer>
   </main>
 
 <script>
@@ -159,7 +159,6 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  // Ganti bagian ini dengan request ke backend kamu.
   console.log("Login:", { username, password });
 });
 
